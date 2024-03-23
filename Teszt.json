@@ -1,0 +1,48 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Luxury watches dolgozat",
+    "dateExported": "2024-02-16T10:36:38.136Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bdcf339c-b5e9-474c-a6af-7a7ca85d1b49",
+            "colId": "ba27d90c-9c4a-43ad-be70-4df7fd523082",
+            "containerId": "",
+            "name": "Get watches by model",
+            "url": "localhost:3000/api/watches/Royal%20Oak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-16T10:22:55.344Z",
+            "modified": "2024-02-16T10:35:43.512Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "696c021d-0d78-4cb7-b7d8-fc8af860d36d",
+            "colId": "ba27d90c-9c4a-43ad-be70-4df7fd523082",
+            "containerId": "",
+            "name": "Get watches with query strings",
+            "url": "localhost:3000/api/watches?sort=Price_USD&select=Model,Price_USD",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-16T10:28:49.258Z",
+            "modified": "2024-02-16T10:35:30.246Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sort",
+                    "value": "Price_USD",
+                    "isPath": false
+                },
+                {
+                    "name": "select",
+                    "value": "Model,Price_USD",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
